@@ -1,1 +1,0 @@
-/home/winter/dotfs/scripts/nvim/init.lua
