@@ -18,6 +18,10 @@ Optimal neovim configuration for web-development. Minimal plugins and written in
 <li>TT - Telescope Search</li>
 </ul>
 <h3>Other:</h3>
-<u
+<ul>
+<li>ESC - Exit terminal mode </li>
+</ul>
+
 
 <i><small>* I know these keybindings are wierd, but they work fine for me. </small><i>
+<br><i>* Capital letters means you have to hold down the shift key </i>
