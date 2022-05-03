@@ -21,7 +21,12 @@ Optimal neovim configuration for web-development. Minimal plugins and written in
 <ul>
   <li>ESC - Exit terminal mode </li>
 </ul>
-
+<h3>Screenshots</h3>
+<hr>
+<img src="./screenshots/snip1.png" alt="">
+<hr>
+<img src="./screenshots/snip2.png" alt="">
+<hr>
 
 <i><small>* I know these keybindings are wierd, but they work fine for me. </small><i>
 <br><i><small>* Capital letters means you have to hold down the shift key </small></i>
