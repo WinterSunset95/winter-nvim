@@ -30,3 +30,11 @@ Optimal neovim configuration for web-development. Minimal plugins and written in
 
 <i><small>* I know these keybindings are wierd, but they work fine for me. </small></i>
 <br><i><small>* Capital letters means you have to hold down the shift key </small></i>
+
+<script src="https://utteranc.es/client.js"
+        repo="WinterSunset95/winter-nvim"
+        issue-term="comments"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
