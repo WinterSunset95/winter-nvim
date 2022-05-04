@@ -32,7 +32,7 @@ Optimal neovim configuration for web-development. Minimal plugins and written in
 <br><i><small>* Capital letters means you have to hold down the shift key </small></i>
   
  <script src="https://utteranc.es/client.js"
-        repo="[ENTER REPO HERE]"
+        repo="winter-nvim"
         issue-term="pathname"
         theme="dark-blue"
         crossorigin="anonymous"
