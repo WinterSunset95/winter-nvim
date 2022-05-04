@@ -13,15 +13,15 @@ printf "${boldred}\n\nSetting up neovim for $user ${end}\n"
 
 if [ uid == 0 ]
 then
-	cd /etc/xdg/
+    cd /etc/xdg/
 else
-	cd ~/.config/
+    cd ~/.config/
 fi
 {
     rm -rf nvim
-	ln -s $winter_dir/nvim
+    ln -s $winter_dir/nvim
 } || {
-	ln -s $winter_dir/nvim
+    ln -s $winter_dir/nvim
 }
 printf "${boldcyan}\nDone!${end}"
 cd $winter_dir
@@ -30,8 +30,8 @@ read opt
 
 if [ $opt == "n" ]
 then
-	printf " "
+    printf " "
 else
-	bash ./nvim-plugins.sh
+    bash ./nvim-plugins.sh
 fi
 
