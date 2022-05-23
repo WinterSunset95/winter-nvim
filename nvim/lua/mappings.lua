@@ -11,11 +11,14 @@ end
 
 -- Short navigations
 k('i', 'ii', '<esc>')
-k('i', 'AA', '<esc>ha')
-k('i', 'SS', '<esc>ja')
-k('i', 'DD', '<esc>la')
-k('i', 'WW', '<esc>ka')
-k('i', 'jj', '<Down>') -- I know these keymappings are kinda wierd, but they work well for me
+k('i', '<S-M-a>', '<esc>ha')
+k('i', '<S-M-s>', '<esc>ja')
+k('i', '<S-M-d>', '<esc>la')
+k('i', '<S-M-w>', '<esc>ka')
+k('i', '<S-M-h>', '<Left>')
+k('i', '<S-M-j>', '<Down>')
+k('i', '<S-M-w>', '<Up>')
+k('i', '<S-M-l>', '<Right>')
 k('i', 'OO', '<esc>o')
 -- Windows
 --k("n", "J", "<C-w><C-j>")
@@ -29,6 +32,9 @@ k('n', '<leader>ff', ':Telescope find_files<CR>')
 k('n', '<leader>fb', ':Telescope buffers<CR>')
 k('n', '<tab>', ':bn<CR>')
 k('n', '<S-tab>', ':bp<CR>')
+-- Git
+k('i', '<leader>g', '<esc>:G<CR>')
+k('n', '<leader>g', ':G<CR>')
 -- Escaping from terminal mode
 k('t', '<esc>', '<C-\\><C-n>')
 

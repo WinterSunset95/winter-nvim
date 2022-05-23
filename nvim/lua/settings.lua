@@ -38,9 +38,9 @@ g.mapleader = ","
 g.user_emmet_leader_key = ","
 
 -- Netrw configs
---g['netrw_liststyle'] = 3
---g['netrw_banner'] = 0
---g['netrw_browse_split'] = 4
+g['netrw_liststyle'] = 3
+g['netrw_banner'] = 0
+g['netrw_browse_split'] = 4
 
 -- Stuff I couldn't quite figure out how to do with lua
 vim.cmd [[
