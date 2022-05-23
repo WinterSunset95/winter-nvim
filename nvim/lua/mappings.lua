@@ -33,8 +33,8 @@ k('n', '<leader>fb', ':Telescope buffers<CR>')
 k('n', '<tab>', ':bn<CR>')
 k('n', '<S-tab>', ':bp<CR>')
 -- Git
-k('i', '<leader>g', '<esc>:G<CR>')
-k('n', '<leader>g', ':G<CR>')
+k('i', '<leader>gg', '<esc>:G<CR>')
+k('n', '<leader>gg', ':G<CR>')
 -- Escaping from terminal mode
 k('t', '<esc>', '<C-\\><C-n>')
 

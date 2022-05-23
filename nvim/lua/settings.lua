@@ -34,7 +34,7 @@ Plug 'tpope/vim-fugitive'
 vim.call('plug#end')
 
 -- Leader keys
-g.mapleader = ","
+g.mapleader = " "
 g.user_emmet_leader_key = ","
 
 -- Netrw configs
@@ -44,6 +44,7 @@ g['netrw_browse_split'] = 4
 
 -- Stuff I couldn't quite figure out how to do with lua
 vim.cmd [[
+  syntax on
   set nowrap
   set wildmenu
   set wildmode=longest:full,full
