@@ -12,9 +12,9 @@ o.autoindent = true
 o.scrolloff = 5
 o.sidescrolloff = 10
 o.shiftround = true
-o.shiftwidth = 4
-g.tabwidth = 4
-o.softtabstop = 4
+o.shiftwidth = 2
+g.tabwidth = 2
+o.softtabstop = 2
 o.wildmenu = true
 o.wildmode = "longest,list"
 o.ttyfast = true
@@ -41,16 +41,16 @@ g.mapleader = ","
 g.user_emmet_leader_key = ","
 
 -- Netrw configs
-g['netrw_liststyle'] = 3
-g['netrw_banner'] = 0
-g['netrw_browse_split'] = 4
+--g['netrw_liststyle'] = 3
+--g['netrw_banner'] = 0
+--g['netrw_browse_split'] = 4
 
 -- Stuff I couldn't quite figure out how to do with lua
 vim.cmd [[
 	set nowrap
-	au VimEnter * :Vexplore
-	au VimEnter * :vertical resize 15
-	au VimEnter * :set winfixwidth
 	au VimEnter * :tabnew +term
 	au VimEnter * :tabn | wincmd p
 ]]
+	--au VimEnter * :Vexplore
+	--au VimEnter * :vertical resize 15
+	--au VimEnter * :set winfixwidth

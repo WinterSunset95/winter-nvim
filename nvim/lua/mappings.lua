@@ -23,8 +23,10 @@ k("n", "K", "<C-w><C-k>")
 k("n", "L", "<C-w><C-l>")
 k("n", "H", "<C-w><C-h>")
 -- Buffers and files
-k('i', '<S-T>T', '<esc>:Telescope find_files<CR>')
-k('n', '<S-T>', ':Telescope find_files<CR>')
+k('i', '<leader>ff', '<esc>:Telescope find_files<CR>')
+k('i', '<leader>fb', '<esc>:Telescope buffers<CR>')
+k('n', '<leader>ff', ':Telescope find_files<CR>')
+k('n', '<leader>fb', ':Telescope buffers<CR>')
 k('n', '<tab>', ':bn<CR>')
 k('n', '<S-tab>', ':bp<CR>')
 -- Escaping from terminal mode
