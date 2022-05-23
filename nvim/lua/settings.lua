@@ -30,6 +30,7 @@ Plug 'BurntSushi/ripgrep'
 Plug 'sharkdp/fd'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'dracula/vim'
+Plug 'tpope/vim-fugitive'
 vim.call('plug#end')
 
 -- Leader keys
