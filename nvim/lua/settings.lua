@@ -11,17 +11,12 @@ o.smartindent = true
 o.autoindent = true
 o.scrolloff = 5
 o.sidescrolloff = 10
-o.shiftround = true
 o.shiftwidth = 2
 g.tabwidth = 2
 o.softtabstop = 2
-o.wildmenu = true
-o.wildmode = "longest,list"
 o.ttyfast = true
 o.clipboard = "unnamedplus"
 o.splitbelow = true
-o.termguicolors = true
-o.completeopt = "menuone,noselect,menu"
 o.laststatus=2
 
 -- Vim-Plug
@@ -34,6 +29,7 @@ Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'BurntSushi/ripgrep'
 Plug 'sharkdp/fd'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'dracula/vim'
 vim.call('plug#end')
 
 -- Leader keys
@@ -47,9 +43,13 @@ g.user_emmet_leader_key = ","
 
 -- Stuff I couldn't quite figure out how to do with lua
 vim.cmd [[
-	set nowrap
-	au VimEnter * :tabnew +term
-	au VimEnter * :tabn | wincmd p
+  set nowrap
+  set wildmenu
+  set wildmode=longest:full,full
+  set completeopt=longest,menuone
+  colorscheme mine
+  au VimEnter * :tabnew +term
+  au VimEnter * :tabn | wincmd p
 ]]
 	--au VimEnter * :Vexplore
 	--au VimEnter * :vertical resize 15
