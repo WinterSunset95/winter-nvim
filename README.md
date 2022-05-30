@@ -3,19 +3,28 @@ Optimal neovim configuration for web-development. Minimal plugins and written in
 <h2>Custom keybindings-</h2>
 <h3>Insert Mode:</h3>
 <ul>
-  <li>WW - Move cursor up </li>
-  <li>AA - Move cursor left </li>
-  <li>SS - Move cursor down </li>
-  <li>DD - Move cursor right </li>
-  <li>jj - Down arrow </li>
+  <li>Alt-A - Move cursor left</li>
+  <li>Alt-W - Move cursor up </li>
+  <li>Alt-S - Move cursor down </li>
+  <li>Alt-D - Move cursor right </li>
+  <li>Alt-H - Left arrow </li>
+  <li>Alt-J - Down arrow </li>
+  <li>Alt-K - Up arrow </li>
+  <li>Alt-L or ;; (two semicolons) - Right arrow </li>
+  <li>OO (Two uppercase O's) - Make new line below </li>
+  <li><leader>ff - Telecsope find files</li>
+  <li><leader>fb - Telecsope list buffers</li>
 </ul>
 <h3>Normal mode:</h3>
 <ul>
-  <li>H - Go to left window</li>
-  <li>J - Go to lower window</li>
-  <li>K - Go to upper window</li>
-  <li>L - Go to right window</li>
-  <li>T - Telescope Search</li>
+  <li>Ctrl-h - Ten characters to the left</li>
+  <li>Ctrl-j - Ten lines down</li>
+  <li>Ctrl-k - Ten lines up</li>
+  <li>Ctrl-l - Ten characters to the right</li>
+  <li><leader>gg - Vim-fugitive(git)</li>
+  <li><leader>nh - Remove highlighting</li>
+  <li>Tab - Next buffer</li>
+  <li>Shift-Tab - Previous buffer</li>
 </ul>
 <h3>Other:</h3>
 <ul>
