@@ -25,6 +25,9 @@ Optimal neovim configuration for web-development. Minimal plugins and written in
   <li><leader>nh - Remove highlighting</li>
   <li>Tab - Next buffer</li>
   <li>Shift-Tab - Previous buffer</li>
+  <li><leader>KB - Search for code snippet</li>
+  <li><leader><leader>w - Neovim quick movement</li>
+  <li><leader><leader>k - Same thing but for lines to the top of the cursor</li>
 </ul>
 <h3>Other:</h3>
 <ul>
