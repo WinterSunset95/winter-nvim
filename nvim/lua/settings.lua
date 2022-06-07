@@ -38,6 +38,7 @@ Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'dbeniamine/cheat.sh-vim'
 Plug 'tpope/vim-fugitive'
+Plug 'easymotion/vim-easymotion'
 vim.call('plug#end')
 
 -- Tabline configs
