@@ -21,13 +21,13 @@ Optimal neovim configuration for web-development. Minimal plugins and written in
   <li>Ctrl-j - Ten lines down</li>
   <li>Ctrl-k - Ten lines up</li>
   <li>Ctrl-l - Ten characters to the right</li>
-  <li><leader>gg - Vim-fugitive(git)</li>
-  <li><leader>nh - Remove highlighting</li>
+  <li>\<leader\>gg - Vim-fugitive(git)</li>
+  <li>\<leader\>nh - Remove highlighting</li>
   <li>Tab - Next buffer</li>
   <li>Shift-Tab - Previous buffer</li>
-  <li><leader>KB - Search for code snippet</li>
-  <li><leader><leader>w - Neovim quick movement</li>
-  <li><leader><leader>k - Same thing but for lines to the top of the cursor</li>
+  <li>\<leader\>KB - Search for code snippet</li>
+  <li>\<leader\>\<leader\>w - Neovim quick movement</li>
+  <li>\<leader\>\<leader\>k - Same thing but for lines to the top of the cursor</li>
 </ul>
 <h3>Other:</h3>
 <ul>
