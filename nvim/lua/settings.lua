@@ -34,11 +34,13 @@ Plug 'pwntester/octo.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'yuezk/vim-js'
+-- Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'dbeniamine/cheat.sh-vim'
 Plug 'tpope/vim-fugitive'
 Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-surround'
+Plug 'tomtom/tcomment_vim'
 vim.call('plug#end')
 
 -- Tabline configs
