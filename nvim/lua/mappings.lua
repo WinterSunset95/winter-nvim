@@ -36,8 +36,8 @@ k('i', '<leader>fb', '<esc>:Telescope buffers<CR>')
 k('n', '<leader>ff', ':Telescope find_files<CR>')
 k('n', '<leader>fb', ':Telescope buffers<CR>')
 k('n', '<leader>nh', ':noh<CR>')
-k('n', '<tab>', ':bn<CR>')
-k('n', '<S-tab>', ':bp<CR>')
+k('n', '<tab>', ':tabnext<CR>')
+k('n', '<S-tab>', ':tabprevious<CR>')
 -- Git
 k('n', '<leader>gg', ':G<CR>')
 -- Escaping from terminal mode
