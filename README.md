@@ -12,8 +12,8 @@ Optimal neovim configuration for web-development. Minimal plugins and written in
   <li>Alt-K - Up arrow </li>
   <li>Alt-L or ;; (two semicolons) - Right arrow </li>
   <li>OO (Two uppercase O's) - Make new line below </li>
-  <li><leader>ff - Telecsope find files</li>
-  <li><leader>fb - Telecsope list buffers</li>
+  <li>&lt;leader&gt;ff - Telecsope find files</li>
+  <li>&lt;leader&gt;fb - Telecsope list buffers</li>
 </ul>
 <h3>Normal mode:</h3>
 <ul>
@@ -21,10 +21,13 @@ Optimal neovim configuration for web-development. Minimal plugins and written in
   <li>Ctrl-j - Ten lines down</li>
   <li>Ctrl-k - Ten lines up</li>
   <li>Ctrl-l - Ten characters to the right</li>
-  <li><leader>gg - Vim-fugitive(git)</li>
-  <li><leader>nh - Remove highlighting</li>
-  <li>Tab - Next tab</li>
-  <li>Shift-Tab - Previous tab</li>
+  <li>&lt;leader&gt;gg - Vim-fugitive(git)</li>
+  <li>&lt;leader&gt;nh - Remove highlighting</li>
+  <li>Tab - Next buffer</li>
+  <li>Shift-Tab - Previous buffer</li>
+  <li>&lt;leader&gt;KB - Search for code snippet</li>
+  <li>&lt;leader&gt;&lt;leader&gt;w - Neovim quick movement</li>
+  <li>&lt;leader&gt;&lt;leader&gt;k - Same thing but for lines to the top of the cursor</li>
 </ul>
 <h3>Other:</h3>
 <ul>
