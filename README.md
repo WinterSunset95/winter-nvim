@@ -23,8 +23,8 @@ Optimal neovim configuration for web-development. Minimal plugins and written in
   <li>Ctrl-l - Ten characters to the right</li>
   <li><leader>gg - Vim-fugitive(git)</li>
   <li><leader>nh - Remove highlighting</li>
-  <li>Tab - Next buffer</li>
-  <li>Shift-Tab - Previous buffer</li>
+  <li>Tab - Next tab</li>
+  <li>Shift-Tab - Previous tab</li>
 </ul>
 <h3>Other:</h3>
 <ul>
