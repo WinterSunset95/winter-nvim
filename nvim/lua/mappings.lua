@@ -38,8 +38,16 @@ k('n', '<leader>fb', ':Telescope buffers<CR>')
 k('n', '<leader>nh', ':noh<CR>')
 k('n', '<tab>', ':tabnext<CR>')
 k('n', '<S-tab>', ':tabprevious<CR>')
+k('n', '<S-t>', ':vsp +term | vertical resize 40 | set winfixwidth<CR>iipython<CR><C-\\><C-n><C-w>h')
 -- Git
 k('n', '<leader>gg', ':G<CR>')
+k('n', '<leader>gp', ':G push<CR>')
+k('n', '<leader>h', '<C-w>h')
+k('n', '<leader>j', '<C-w>j')
+k('n', '<leader>k', '<C-w>k')
+k('n', '<leader>l', '<C-w>l')
+k('n', '<F9>', 'yy<C-w>lpi<CR><CR><C-\\><C-n><C-f><C-w>hj')
+k('v', '<F9>', 'y<C-w>lpi<CR><CR><C-\\><C-n><C-f><C-w>hj')
 -- Escaping from terminal mode
 k('t', '<esc>', '<C-\\><C-n>')
 
